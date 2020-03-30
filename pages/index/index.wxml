@@ -1,0 +1,135 @@
+<view style="background:#f5f5f5">
+  <swiper autoplay="{{true}}" indicator-dots="{{true}}" 
+  indicator-color="#fff" indicator-active-color="#ff6700"
+  circular="{{true}}">
+      <swiper-item>
+        <image class="banner-img" src="/images/banner6.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="banner-img" src="/images/banner7.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="banner-img" src="/images/banner8.jpg"></image>
+      </swiper-item>
+  </swiper>
+  <!-- 热门活动 -->
+  <view style="background:#fff;padding-bottom:36rpx" class="hot_active">
+    <view class="title">
+      <text class="title_name">热门活动</text>
+      <view class="all1">
+        <text class="all">全部8个</text>
+        <image class="pic" src="/images/right1.png"/>
+      </view>
+    </view>
+    <scroll-view class="scorll-w" scroll-x="true">
+      <view class="item">
+        <image class="item_img" src="/images/banner1.jpg"></image>
+        <view style="margin-top:14rpx">11.11钜惠嗨翻天</view>
+        <view style="font-size:28rpx;color:#777">买保险秒杀低至5折</view>
+      </view>
+      <view class="item">
+        <image class="item_img" src="/images/banner4.jpg"></image>
+        <view style="margin-top:14rpx">11.11钜惠嗨翻天</view>
+        <view style="font-size:28rpx;color:#777">买保险秒杀低至5折</view>
+      </view>
+      <view class="item">
+        <image class="item_img" src="/images/banner3.jpg"></image>
+        <view style="margin-top:14rpx">11.11钜惠嗨翻天</view>
+        <view style="font-size:28rpx;color:#777">买保险秒杀低至5折</view>
+      </view>
+      <view class="item">
+        <image class="item_img" src="/images/banner1.jpg"></image>
+        <view style="margin-top:14rpx">11.11钜惠嗨翻天</view>
+        <view style="font-size:28rpx;color:#777">买保险秒杀低至5折</view>
+      </view>
+      <view class="item">
+        <image class="item_img" src="/images/banner1.jpg"></image>
+        <view style="margin-top:14rpx">11.11钜惠嗨翻天</view>
+        <view style="font-size:28rpx;color:#777">买保险秒杀低至5折</view>
+      </view>
+      <view class="item">
+        <image class="item_img" src="/images/banner1.jpg"></image>
+        <view style="margin-top:14rpx">11.11钜惠嗨翻天</view>
+        <view style="font-size:28rpx;color:#777">买保险秒杀低至5折</view>
+      </view>
+      <view class="item">
+        <image class="item_img" src="/images/banner1.jpg"></image>
+        <view style="margin-top:14rpx">11.11钜惠嗨翻天</view>
+        <view style="font-size:28rpx;color:#777">买保险秒杀低至5折</view>
+      </view>
+      <view class="item">
+        <image class="item_img" src="/images/banner1.jpg"></image>
+        <view style="margin-top:14rpx">11.11钜惠嗨翻天</view>
+        <view style="font-size:28rpx;color:#777">买保险秒杀低至5折</view>
+      </view>
+    </scroll-view>
+  </view>
+  <!-- 为您推荐 -->
+  <view  style="background:#fff;margin-top:22rpx;padding-bottom:20rpx">
+    <view class="title">
+      <text class="title_name">为您推荐</text>
+    </view>
+    <view class="rom-item">
+        <view class="bx">保险</view>
+        <image class="pic" src="/images/item.jpg"></image>
+        <view style="padding-right:40rpx">
+          <view style="font-size:36rpx;padding-top:20rpx">小福星少儿疾病保险</view>
+          <view style="font-size:28rpx;color:#777;line-height:48rpx;margin-bottom:48rpx">134种重疾保障</view>
+          <button style="width:200rpx;font-size:28rpx;padding:0;line-height:68rpx;background:#ff6700;color:#fff;margin:0">立即预约</button>
+        </view>
+      </view>
+      <view class="rom-item">
+        <view class="bx">保险</view>
+        <image class="pic" src="/images/item.jpg"></image>
+        <view style="padding-right:40rpx">
+          <view style="font-size:36rpx;padding-top:20rpx">小福星少儿疾病保险</view>
+          <view style="font-size:28rpx;color:#777;line-height:48rpx;margin-bottom:48rpx">134种重疾保障</view>
+          <button style="width:200rpx;font-size:28rpx;padding:0;line-height:68rpx;background:#ff6700;color:#fff;margin:0">立即预约</button>
+        </view>
+      </view>
+      <view class="rom-item">
+        <view class="bx">保险</view>
+        <image class="pic" src="/images/item.jpg"></image>
+        <view style="padding-right:40rpx">
+          <view style="font-size:36rpx;padding-top:20rpx">小福星少儿疾病保险</view>
+          <view style="font-size:28rpx;color:#777;line-height:48rpx;margin-bottom:48rpx">134种重疾保障</view>
+          <button style="width:200rpx;font-size:28rpx;padding:0;line-height:68rpx;background:#ff6700;color:#fff;margin:0">立即预约</button>
+        </view>
+      </view>
+      <view class="rom-item">
+        <view class="bx">保险</view>
+        <image class="pic" src="/images/item.jpg"></image>
+        <view style="padding-right:40rpx">
+          <view style="font-size:36rpx;padding-top:20rpx">小福星少儿疾病保险</view>
+          <view style="font-size:28rpx;color:#777;line-height:48rpx;margin-bottom:48rpx">134种重疾保障</view>
+          <button style="width:200rpx;font-size:28rpx;padding:0;line-height:68rpx;background:#ff6700;color:#fff;margin:0">立即预约</button>
+        </view>
+      </view>
+  </view>
+  <!-- 底部 -->
+  <view style="padding:30rpx 0;background:#fff;border-top:2rpx solid #ccc;text-align: center;" class="footer">
+    <view class="bar">
+      <text class="foot-bar">首页</text>
+      <text class="foot-bar">保险</text>
+      <text class="foot-bar">银行</text>
+      <text class="foot-bar">贷款</text>
+    </view>
+    <view style="font-size:60rpx;color:#ff6700;font-weight:bold;margin-top:30rpx">
+        中国平安
+    </view>
+    <view style="font-size:24rpx;color:#ff6700;">
+      金融 • 科技
+    </view>
+    <view style="line-height:48rpx;color:#888;font-size:28rpx;margin-top:30rpx">
+      <view>
+        ICP许可证号 粤ICP备06118290号
+      </view>
+      <view>
+        粤公网安备 44030402000833号
+      </view>
+      <view>
+        该网站已支持IPv6
+      </view>
+    </view>
+  </view>
+</view>

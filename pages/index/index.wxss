@@ -1,0 +1,100 @@
+/**index.wxss**/
+.banner-img {
+  width: 750rpx;
+}
+.title {
+  width: 100%;
+  padding: 14rpx 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+}
+.title::before {
+  content: '';
+  width: 6rpx;
+  height: 36rpx;
+  background: #ff6700;
+  position: absolute;
+  left: 0rpx;
+  top: 20rpx;
+  
+}
+.title .title_name {
+  font-size: 36rpx;
+}
+.title .all1 {
+  padding: 10rpx 20rpx;
+  line-height: 32rpx;
+  position: relative;
+  right: 26rpx;
+  background: #f1766056;
+  border-radius: 36rpx;
+  color: #ff6700;
+}
+.title .pic {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: -6rpx;
+}
+.scorll-w {
+  white-space: nowrap;
+  overflow: hidden;
+  padding-left: 6rpx;
+}
+.scorll-w .item {
+  display: inline-block;
+  margin-left: 20rpx;
+}
+.scorll-w .item .item_img {
+  width: 560rpx;
+  height: 280rpx;
+  border-radius: 20rpx;
+}
+.rom-item {
+  width: 700rpx;
+  margin: 30rpx auto;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 30rpx;
+  border-radius: 20rpx;
+  box-shadow: 0rpx 0rpx 16rpx #ccc;
+  position: relative;
+}
+.rom-item .pic {
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+}
+.bx {
+  padding: 0 10rpx;
+  color: #0f6e0f;
+  border: 2rpx solid #0f6e0f;
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  font-size: 28rpx;
+}
+
+.foot-bar {
+  color: #eb5555;
+  font-size: 28rpx;
+  margin: 0 28rpx;
+  position: relative;
+}
+.foot-bar::after {
+  content: '';
+  width: 2rpx;
+  height: 32rpx;
+  display: block;
+  background: #eb5555;
+  position: absolute;
+  right: -28rpx;
+  top: 4rpx;
+}
+.foot-bar:last-child::after {
+  content: '';
+  display: none;
+}
